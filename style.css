@@ -902,6 +902,7 @@ input[type="radio"] {
   gap: 12px;
   margin: 12px 0 0;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .footer-socials span {
