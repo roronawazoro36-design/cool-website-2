@@ -142,9 +142,15 @@ img {
 
 .site-nav,
 .footer-nav {
+  gap: 52px;
+  width: 100%;
   display: flex;
-  gap: 32px;
   font-size: 1.05rem;
+  justify-content: center;
+}
+
+.footer-nav>div {
+  justify-content: flex-end;
 }
 
 .site-nav a,
@@ -4769,4 +4775,14 @@ input[type="radio"] {
     flex-direction: column;
     gap: 20px;
   }
+}
+
+.footer_social_icon_container {
+  gap: 0.75rem;
+  display: flex;
+  margin-right: 3rem;
+}
+
+.footer_social_icon_container img {
+  width: 1.5rem;
 }
