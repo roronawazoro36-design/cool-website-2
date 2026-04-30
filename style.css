@@ -2937,19 +2937,20 @@ input[type="radio"] {
 }
 
 .cases-featured-copy .tag {
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   margin-bottom: 14px;
   padding: 6px 14px;
+  color: var(--ink);
   font-weight: 400;
   text-transform: none;
 }
 
 .featured-heading-text {
-  margin: 0 0 28px;
-  font-size: clamp(2.4rem, 4vw, 3.8rem);
-  line-height: 1.14;
+  margin: 26px 0 28px;
+  font-size: 2rem;
+  line-height: 1.15;
   font-weight: 500;
-  max-width: 22ch;
+  max-width: 25rem;
   display: block;
 }
 
@@ -3062,7 +3063,6 @@ input[type="radio"] {
 
 .cases-link {
   margin-top: auto;
-  display: inline-flex;
   align-items: center;
   gap: 14px;
   font-size: 1.1rem;
@@ -3335,7 +3335,7 @@ input[type="radio"] {
   }
 
   .cases-featured-copy .tag {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     padding: 6px 14px;
     margin-bottom: 12px;
     background: var(--accent);
@@ -3538,6 +3538,7 @@ input[type="radio"] {
   .cases-footer .footer-socials {
     order: 3;
     justify-content: center;
+    margin: 1rem;
   }
 
   .cases-footer .newsletter {
