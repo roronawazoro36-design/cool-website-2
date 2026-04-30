@@ -4794,3 +4794,8 @@ input[type="radio"] {
 .Analytics_bg_color_change {
   background: #b6ff4d !important;
 }
+
+.service-card h3 {
+  font-size: 1.75rem;
+  max-width: none;
+}
