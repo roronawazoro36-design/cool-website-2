@@ -4396,12 +4396,12 @@ input[type="radio"] {
 }
 
 .check-list li::before {
-  content: "+";
+  content: ".";
   position: absolute;
   left: 0;
   color: var(--link);
   font-size: 2rem;
-  line-height: 1;
+  line-height: 0rem;
 }
 
 .separator-icon {
