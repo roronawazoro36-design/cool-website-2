@@ -4788,6 +4788,8 @@ input[type="radio"] {
 }
 
 .service-card.light h3 span {
+  display: flex;
+  justify-self: start;
   background: #b6ff4d;
 }
 
@@ -4798,4 +4800,13 @@ input[type="radio"] {
 .service-card h3 {
   font-size: 1.75rem;
   max-width: none;
+}
+
+.service-card.accent h3 span {
+  display: flex;
+  justify-self: start;
+}
+
+.service_card_light_spans {
+  background: #fff !important;
 }
