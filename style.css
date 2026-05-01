@@ -4797,9 +4797,9 @@ input[type="radio"] {
   width: 1.5rem;
 }
 
-.service-card.light h3 span {
-  /* background: #b6ff4d; */
-}
+/* .service-card.light h3 span {
+  background: #b6ff4d;
+} */
 
 .Analytics_bg_color_change {
   background: #b6ff4d !important;
