@@ -259,7 +259,8 @@ img {
   grid-template-columns: repeat(6, 1fr);
   gap: 28px;
   align-items: center;
-  margin-bottom: 88px;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
   justify-items: center;
 }
 
@@ -1172,7 +1173,8 @@ input[type="radio"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px 12px;
     text-align: center;
-    margin-bottom: 56px;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
   }
 
   .logo-strip img {
