@@ -935,6 +935,7 @@ input[type="radio"] {
   color: var(--ink);
   font-weight: 700;
   margin-bottom: 18px;
+  margin-top: 2rem;
 }
 
 .newsletter {
@@ -4781,6 +4782,7 @@ input[type="radio"] {
   gap: 0.75rem;
   display: flex;
   margin-right: 3rem;
+  position: unset;
 }
 
 .footer_social_icon_container img {
@@ -4809,4 +4811,35 @@ input[type="radio"] {
 
 .service_card_light_spans {
   background: #fff !important;
+}
+
+.promo-art {
+  width: auto;
+  margin-right: -4rem;
+}
+
+.promo-art img {
+  height: 22rem;
+  transform: translateY(-66px);
+}
+
+@media (max-width: 760px) {
+  .footer-top {
+    position: relative;
+  }
+
+
+  .footer_social_icon_container {
+    top: 26rem;
+    margin-right: 0;
+    position: absolute;
+  }
+
+  .newsletter {
+    margin-top: 2rem;
+  }
+
+  .site-footer .footer-tag {
+    margin-top: 1.25rem;
+  }
 }
