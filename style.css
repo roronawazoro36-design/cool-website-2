@@ -4501,12 +4501,8 @@ input[type="radio"] {
   left: 0;
   color: var(--link);
   font-size: 2rem;
-<<<<<<< HEAD
   line-height: 1;
   top: -1 rem;
-=======
-  line-height: 0rem;
->>>>>>> main
 }
 
 .separator-icon {
