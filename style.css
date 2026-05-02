@@ -839,7 +839,6 @@ input[type="radio"] {
 }
 
 .contact-form label {
-  display: flex;
   margin-bottom: 18px;
 }
 
@@ -1524,13 +1523,19 @@ input[type="radio"] {
 
   .radio-row {
     gap: 18px;
-    flex-wrap: wrap;
+    white-space: nowrap;
+  }
+
+  .label_dot_one {
+    margin-top: 3px !important;
+    margin-bottom: 0 !important;
   }
 
   .contact-form input,
   .contact-form textarea,
   .newsletter input {
     padding: 14px 16px;
+    margin-bottom: 1rem;
   }
 
   .newsletter {
@@ -1625,6 +1630,20 @@ input[type="radio"] {
     gap: 10px;
     padding-top: 16px;
   }
+}
+
+.contact-form input,
+.contact-form textarea,
+.newsletter input {
+  margin-bottom: 1rem;
+}
+
+.label_dot_one {
+  height: 1.25rem !important;
+}
+
+.label_dot_one_span {
+  white-space: nowrap;
 }
 
 .cta-card {
